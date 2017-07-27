@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Accueil</title>
+    <!--meta pour le SEO-->
+
+    <!--link css/font-->
+
+</head>
+
+<body>
+    <div id="container">
+        <!--header contenant le menu, le logo, la searchbar et les icons sociaux-->
+        <header>
+            <div>
+                <img src="images/logo.png" alt="logo chateaugiron" title="logo" />
+
+                <!--searchbar-->
+                <div id="searchbar">
+                    <form action="" class="formulaire">
+                        <input id="search" class="champ" type="text" value="Rechercher" />
+                        <label for="search">Rechercher</label>
+                        <input id="search-button" class="bouton" type="button" value=" " />
+                    </form>
+                </div>
+                <!--icons list-->
+                <ul>
+                    <li>
+                        <a href="#"><i class="">facebook</i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="">twitter</i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="">google</i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="">youtube</i></a>
+                    </li>
+                </ul>
+
+
+            </div>
+            <hr />
+
+            <!--barre de navigation-->
+            <nav id="menu">
+                <ul>
+                    <li><a href="pages/mairie.html">Mairie</a></li>
+                    <li><a href="pages/enfance-jeunesse.html">enfance &amp; jeunesse</a></li>
+                    <li><a href="pages/cadre-de-vie.html">cadre de vie</a></li>
+                    <li><a href="pages/solidarite-seniors.html">solidarie &amp; seniors</a></li>
+                    <li><a href="pages/culture-patrimoine.html">culture &amp; patrimoine</a></li>
+                    <li><a href="pages/sports-loisirs.html">sports &amp; loisirs</a></li>
+                    <li><a href="pages/decouvrir-chateaugiron.html">decouvrir chateaugiron</a></li>
+                    <li>Mon profil
+                        <ul>
+                            <li><a href="pages/profil/compte.html">Mon Compte</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <hr />
+
+        <!--section slider1-->
+        <section id="slider1">
+            <h2>Diaporama</h2>
+            <!-- ajout texte associé à chaque image-->
+            <img src="images/diaporama1-image.png" alt="image diaporama">
+            <span>ça bouge à chateaugiron</span>
+        </section>
+        <hr />
+
+        <!--section accès rapide-->
+        <!--liste avec icons/liens vers les pages correspondantes-->
+        <section id="fastLink">
+            <h2 class="titreSection">accès rapide</h2>
+            <ul>
+                <li>
+                    <i class=""></i>
+                    <span>démarches etat civil</span>
+                </li>
+                <li>
+                    <i class=""></i>
+                    <span>portail famille</span>
+                </li>
+                <li>
+                    <i class=""></i>
+                    <span>menus restos scolaires</span>
+                </li>
+                <li>
+                    <i class=""></i>
+                    <span>plan de la ville</span>
+                </li>
+                <li>
+                    <i class=""></i>
+                    <span>centre d'art les 3 cha</span>
+                </li>
+                <li>
+                    <i class=""></i>
+                    <span>historique de la ville</span>
+                </li>
+                <li>
+                    <i class=""></i>
+                    <span>office de tourisme</span>
+                </li>
+                <li>
+                    <i class=""></i>
+                    <span>nous contacter</span>
+                </li>
+            </ul>
+        </section>
+        <hr />
+        <!--section actualité (slider + liste deroulante)-->
+        <section>
+            <h2 class="titreSection">les actualités de châteaugiron</h2>
+            <!--bouton voir tout-->
+            <a href="pages/actualites.html"><i class=""></i>Voir toutes les actualités</a>
+            <div id="slider2">
+                <img src="images/diapo-actualite.png" alt="image diaporama actualités">
+                <span>à la une sur les bancs de l'école</span>
+            </div>
+            <div id="listDeroulante">
+                <ul>
+                    <li>
+                        <h3>Bea, la borne électrique</h3>
+                        <span>arrive à Châteaugiron</span>
+                    </li>
+                    <li>
+                        <h3>mouvement de personnel</h3>
+                        <span>à la mairie</span>
+                    </li>
+                    <li>
+                        <h3>inscription sur les sites électorales</h3>
+                        <span>le calendrier électoral 2017</span>
+                    </li>
+                    <li>
+                        <h3>le lieutenant bruneau</h3>
+                        <span>prend le commandement de la Communauté de brigades de Châteaugiron</span>
+                    </li>
+                    <li>
+                        <h3>héloïse martin</h3>
+                        <span>Une jeune Castelgironnaise réalise son rêve en devenant comédienne</span>
+                    </li>
+                    <li>
+                        <h3>Des moustiquaires ont été distribuées en Tanzanie</h3>
+                        <span>Grâce au Fort</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr />
+        <!--section agenda (disposé en 3 parties  avec date, image, titre, texte, lien pour chaque partie) -->
+        <section id="agenda">
+            <h2 class="titreSection">les dates à retenir</h2>
+            <!--fleches + bouton tout l'agenda -->
+            <img src="" alt="fleche gauche"><img src="" alt="fleche droite">
+            <a href="#"><i class=""></i>Tout l'agenda</a>
+            <div id="contenuAgenda">
+                <ul>
+                    <li>
+                        <h3>27 jan</h3>
+                        <img src="images/carpe-lapin.png" alt="carpe-lapin">
+                        <h3>conférence</h3>
+                        <span>performance d’Alain Michard «La carpe et le lapin »</span>
+                        <a href="#">Lire la suite</a>
+                    </li>
+                    <li>
+                        <h3>24 mar</h3>
+                        <img src="images/castel-art.png" alt="castel'art">
+                        <h3>Salon</h3>
+                        <span>L’association Castel’Art organise le salon des métiers d'art de Châteaugiron</span>
+                        <a href="#">Lire la suite</a>
+                    </li>
+                    <li>
+                        <h3>30 jun</h3>
+                        <img src="images/spectacle.png" alt="flamenco">
+                        <h3>spectacle</h3>
+                        <span>Spectacle drapés aériens Danse aérienne et cirque contemporain à 20h et 21h30</span>
+                        <a href="#">Lire la suite</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr/>
+        <!--section médias et kiosque sur la même ligne-->
+        <section id="medias">
+            <h2 class="titreSection">médias</h2>
+            <!--bouton toutes les galeries-->
+            <a href="#"><i class=""></i>Toutes les galeries</a>
+            <img src="images/galerie-media.png" alt="galerie-image" />
+        </section>
+        <section id="kiosque">
+            <h2 class="titreSection">kiosque</h2>
+            <!--bouton toutes les publications-->
+            <a href="#"><i class=""></i>Toutes les publications</a>
+            <ul>
+                <li>
+                    <img src="" alt="image kiosque le castel gironais">
+                    <p>
+                        Le Castel gironais N°133 octobre 2016
+                    </p>
+                    <a href="#">Feuilleter</a>
+                </li>
+                <li>
+                    <img src="" alt="image kiosque saison culturelle">
+                    <p>
+                        Saison culturelle Châteaugiron 2016/2017
+                    </p>
+                    <a href="#">Feuilleter</a>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <footer>
+            <!--abonnement newletter-->
+            <div id="newletter-container">
+                <span>abonnez-vous à la lettre d'information</span>
+                <div id="newletter">
+                    <form action="" class="formulaire">
+                        <input id="newsletter-addto" class="champ" type="text" value="Adresse e-mail" />
+                        <label for="newsletter-addto">Adresse e-mail pour lettre d'information</label>
+                        <input class="bouton" type="button" value="OK" />
+                    </form>
+                </div>
+                <a href="">Voir les derniers numéros</a>
+            </div>
+            <hr />
+            <!--footer-->
+            <img src="images/logo-footer.png" alt="logo bas de page">
+            <div>
+                <p>
+                    Mairie de CHATEAUGIRON <br> Département d'Ille-et-Vilaine <br> Le château 35410 Châteaugiron <br> Tél : 02 99 37 41 69 <br> Fax : 02 99 37 43 55 <br> Adresse de messagerie : <br> contact@ville-chateaugiron.fr
+                </p>
+                <p> Horaires d’ouverture <br>Du lundi au vendredi de 8h à 12h <br>et de 13h30 à 17h. <br> Le samedi (permanence état-civil) <br>de 9h à 12h.</p>
+            </div>
+            <div>
+                <nav id="footer-menu">
+                    <ul>
+                        <li>
+                            <a href="pages/mairie.html">mairie</a>
+                        </li>
+                        <li>
+                            <a href="pages/enfance-jeunesse.html">enfance &amp; jeunesse</a>
+                        </li>
+                        <li>
+                            <a href="pages/cadre-de-vie.html">cadre de vie</a>
+                        </li>
+                        <li>
+                            <a href="pages/solidarite-seniors.html">solidarite &amp; seniors</a>
+                        </li>
+                        <li>
+                            <a href="pages/culture-patrimoine.html">culture &amp; patrimoine</a>
+                        </li>
+                        <li>
+                            <a href="pages/sports-loisirs.html">sports &amp; loisirs</a>
+                        </li>
+                        <li>
+                            <a href="pages/decouvrir-chateaugiron.html">decouvrir chateaugiron</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <nav id="footer-menu-2">
+                    <ul>
+                        <li>
+                            <a href="pages/actualites.html">actualités</a>
+                        </li>
+                        <li>
+                            <a href="pages/agenda.html">agenda</a>
+                        </li>
+                        <li>
+                            <a href="pages/profil/compte.html">mon compte</a>
+                        </li>
+                        <li>
+                            <a href="pages/contact.html">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav id="footer-social-network">
+                    <p>Suivez-nous</p>
+                    <ul>
+                        <li><a href="#"><i class="">facebook</i></a></li>
+                        <li><a href="#"><i class="">twitter</i></a></li>
+                        <li><a href="#"><i class="">google plus</i></a></li>
+                        <li><a href="#"><i class="">youtube</i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <hr>
+            <nav id="footer-copyright">
+                <ul>
+                    <li><a href="#">©2016 Mentions Légales</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Accessibilité</a></li>
+                    <li><a href="#">Plan de site</a></li>
+                    <li><a href="#">Réalisation <i class="">aYaline</i></a></li>
+                </ul>
+            </nav>
+        </footer>
+
+        <!--script-->
+    </div>
+</body>
+</html>
